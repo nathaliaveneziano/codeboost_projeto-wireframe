@@ -2,13 +2,21 @@
   .s-hero .text {
     max-width: 49%;
   }
+
+  .s-card-featured .all-cards {
+    width: 100%;
+  }
+
+  .s-card-featured .all-cards .card {
+    width: 32%;
+  }
 }
 
 @media (max-width: 991px) {
   header nav {
     display: none;
   }
-  
+
   header .menu-mobile {
     display: block;
   }
@@ -16,7 +24,7 @@
   .s-hero .container {
     flex-direction: column;
   }
-  
+
   .s-hero .text {
     max-width: 100%;
     margin-bottom: 4rem;
@@ -24,9 +32,26 @@
     flex-direction: column;
     align-items: center;
   }
-  
-  .s-hero .text h1, .s-hero .text p {
+
+  .s-hero .text h1,
+  .s-hero .text p {
     text-align: center;
+  }
+
+  .s-card-featured .all-cards {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .s-card-featured .all-cards .card {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 3rem;
+  }
+  
+  .s-card-featured .all-cards .card .info {
+    max-width: 100%;
   }
 }
 
@@ -38,28 +63,36 @@
   html {
     font-size: 55%;
   }
-  
+
   header .logo {
     max-width: 13rem;
   }
-  
+
   .s-hero {
     padding: 4rem 0;
   }
-  
+
   .s-hero .text h1 {
     font-size: 4.2rem;
   }
-  
+
   .s-hero .text p {
     margin-bottom: 3rem;
   }
-  
+
   .s-hero .image {
     height: 40rem;
   }
-  
+
   .s-hero .image img {
     max-width: 100%;
   }
+  
+  .s-card-featured {
+    padding: 4rem 0;
+  }
+  
+  .s-card-featured .title p {
+    max-width: 80%;
+  } 
 }
