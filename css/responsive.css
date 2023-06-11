@@ -142,4 +142,8 @@
   .s-card-featured .second-area .all-imgs .image {
     width: 49%;
   }
+  
+  .s-newsletter {
+    padding: 4rem 0;
+  }
 }
