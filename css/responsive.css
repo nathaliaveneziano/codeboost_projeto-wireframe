@@ -1,4 +1,7 @@
 @media screen and (max-width: 1200px) {
+  .s-hero .text {
+    max-width: 49%;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -9,6 +12,23 @@
   header .menu-mobile {
     display: inline-block;
   }
+
+  .s-hero .container {
+    flex-direction: column;
+  }
+
+  .s-hero .text {
+    max-width: 100%;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .s-hero h1,
+  .s-hero p {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -18,7 +38,31 @@
 }
 
 @media screen and (max-width: 480px) {
+  html {
+    font-size: 55%;
+  }
+
   header .logo {
     max-width: 13rem;
+  }
+
+  .s-hero {
+    padding: 4rem 0;
+  }
+
+  .s-hero h1 {
+    font-size: 4.2rem;
+  }
+
+  .s-hero p {
+    margin-bottom: 3rem;
+  }
+
+  .s-hero .image {
+    height: 30rem;
+  }
+
+  .s-hero .image img {
+    max-width: 100%;
   }
 }
