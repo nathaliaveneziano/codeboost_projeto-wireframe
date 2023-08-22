@@ -1,0 +1,24 @@
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 991px) {
+  header nav {
+    display: none;
+  }
+
+  header .menu-mobile {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 480px) {
+  header .logo {
+    max-width: 13rem;
+  }
+}
