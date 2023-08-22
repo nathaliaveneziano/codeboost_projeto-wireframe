@@ -2,6 +2,14 @@
   .s-hero .text {
     max-width: 49%;
   }
+
+  .s-card-featured .all-cards {
+    width: 100%;
+  }
+
+  .s-card-featured .card {
+    width: 32%;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -28,6 +36,23 @@
   .s-hero h1,
   .s-hero p {
     text-align: center;
+  }
+
+  .s-card-featured .all-cards {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .s-card-featured .card {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  .s-card-featured .card .info {
+    max-width: 100%;
+    margin-top: 2rem;
   }
 }
 
@@ -64,5 +89,13 @@
 
   .s-hero .image img {
     max-width: 100%;
+  }
+
+  .s-card-featured {
+    padding: 4rem 0;
+  }
+
+  .s-card-featured .main-area {
+    padding-bottom: 4rem;
   }
 }

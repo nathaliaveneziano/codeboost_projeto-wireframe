@@ -73,3 +73,77 @@ header .menu-mobile {
   align-items: center;
   justify-content: center;
 }
+
+/* CARD FEATURED */
+.s-card-featured {
+  background-color: var(--gray-colors-100);
+  padding-top: 10.4rem;
+  padding-bottom: 12rem;
+}
+
+.s-card-featured .main-area {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  padding-bottom: 12.5rem;
+}
+
+.s-card-featured .title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.s-card-featured .title.center {
+  align-items: center;
+}
+
+.s-card-featured p {
+  color: var(--white-colors-text);
+}
+
+.s-card-featured .title p {
+  max-width: 80%;
+  text-align: center;
+}
+
+.s-card-featured .all-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.8rem;
+}
+
+.s-card-featured .card {
+  width: 100%;
+  max-width: 38.4rem;
+  height: 38.2rem;
+  background-color: rgba(28, 29, 31, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.s-card-featured .card.white {
+  background-color: var(--white);
+}
+
+.s-card-featured .card .info {
+  margin-top: 4rem;
+  max-width: 28.8rem;
+}
+
+.s-card-featured .info h3,
+.s-card-featured p {
+  text-align: center;
+}
+
+.s-card-featured .card.white .info h3 {
+  color: var(--gray-colors-100);
+}
+
+.s-card-featured .info p {
+  margin-top: 0.8rem;
+}
+
+.s-card-featured .card.white .info p {
+  color: var(--gray-colors-300);
+}
