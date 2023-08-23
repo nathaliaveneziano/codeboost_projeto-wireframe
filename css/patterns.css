@@ -31,6 +31,11 @@ h3 {
   background-color: var(--brand-colors-pink);
   padding: 1.2rem 3.4rem;
   color: var(--gray-colors-100);
+  transition: all 0.3s;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
 }
 
 .menu-item {
@@ -41,4 +46,10 @@ h3 {
   line-height: 105%;
   letter-spacing: -0.01em;
   color: var(--gray-colors-400);
+  transition: all 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #acb4bf;
+  color: var(--white);
 }
