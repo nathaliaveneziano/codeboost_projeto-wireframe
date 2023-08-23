@@ -203,3 +203,83 @@ header .menu-mobile {
 .s-newsletter .btn-primary {
   padding: 1.75rem 4.1rem;
 }
+
+/* FOOTER */
+footer {
+  background-color: var(--gray-colors-100);
+  padding-top: 8.8rem;
+  padding-bottom: 3.9rem;
+}
+
+footer main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 7.2rem;
+}
+
+footer .area-left {
+  max-width: 28.1rem;
+}
+
+footer .area-left p {
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: var(--white-colors-text);
+  margin-top: 3.5rem;
+}
+
+footer nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 77.7rem;
+}
+
+footer nav h6 {
+  font-family: 'Sora', sans-serif;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -0.1rem;
+  color: var(--white);
+  margin-bottom: 2.4rem;
+}
+
+footer nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+footer nav li a {
+  font-family: 'Sora', sans-serif;
+  font-size: 1.4rem;
+  line-height: 105%;
+  color: var(--white-colors-text);
+}
+
+footer .item:last-child li a {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+footer .copy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3.1rem;
+}
+
+footer .copy .group {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+footer .copy p,
+footer .copy .group {
+  color: var(--white);
+}
